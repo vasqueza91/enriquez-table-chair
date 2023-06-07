@@ -1,0 +1,10 @@
+.site-container .title {
+    width: 55%;
+    margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+    .site-container .title {
+        width: 100%
+    }
+}

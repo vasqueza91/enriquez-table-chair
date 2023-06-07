@@ -1,0 +1,31 @@
+.product-container .product-tables .product-tables-pic {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-container .product-tables .product-tables-pic p {
+    width: 50%;
+    height: 100%;
+}
+
+.product-container .product-tables .product-tables-pic img {
+    border: solid black;
+    width: 45%;
+    height: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .product-container .product-tables .product-tables-pic {
+        display: flex;
+        flex-direction: column;
+    }
+    .product-container .product-tables .product-tables-pic p {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .product-container .product-tables .product-tables-pic img {
+        width: 100%;
+        height: 100%;
+    }
+}
